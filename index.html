@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 9</title>
+    <style>
+        body{
+            background-image: linear-gradient(rgb(250, 245, 245), rgb(128, 205, 228));
+            height: 100vh;
+        }
+        div{
+            max-width:300px;
+            margin: 100px auto;
+        }
+        div > :nth-child(1){
+            margin-left: auto;
+        }
+        div > :nth-child(2){
+            margin-right: auto;
+        }
+        button{
+            padding: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 10px;
+            font-size: 18px;
+            color: white;
+            background-color: rgb(236, 90, 36);
+            animation: zoom 1.5s infinite alternate;
+            margin: 5%;  
+        }
+        button:hover{
+            background-color: rgb(31, 28, 28);
+        }
+        @keyframes zoom {
+            0%{
+                scale: 1;
+            }
+            100%{
+                scale: 1.2;
+            }
+        }
+         
+
+    </style>
+    <script src="https://kit.fontawesome.com/4a42d0b430.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <button><a href="/animation/"><i class="fa-solid fa-radiation fa-lg" style="color: #ffffff;"></i></a></button>
+        <button><a href="/bugamenu/"><i class="fa-solid fa-burger fa-lg" style="color: #ffffff;"></i></a></button>
+    </div>
+</body>
+</html>
